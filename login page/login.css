@@ -1,0 +1,76 @@
+body{
+	height: 80%;
+	margin: 10 70;
+	background-image: url('loginbg.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed; 
+  	background-size: 100% 100%;
+  	display: grid;
+   justify-items: center;
+   align-items: center;
+
+}
+#blogbook{
+    align-items:left;
+    text-align: left;
+}
+
+#main-holder{
+ 
+  background-color: white; width: 18%;
+  height: 130%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+   border-radius: 10px 10px 10px 10px;
+  
+  box-shadow: 1px 1px 10px 10px black;
+  
+
+}
+
+
+#username{
+	font-family: "Roboto",sans-serif;
+	
+	outline: 3;
+	margin: 10px ;
+	border: 50;
+	width : 100;
+	border :0;
+	padding :15px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+#password{
+	font-family: "Roboto",sans-serif;
+	
+	border: 10;
+	outline: 3;
+	width : 100;
+	border :0;
+	padding :15px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+#login-form
+{
+	height: 70%;
+    display: grid;
+    justify-items: center;
+	align-items: center;	
+}
+
+#login-form-submit{
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	outline: 1;
+	background-color: green;
+	width : 100%;
+	border :0;
+	padding :15px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+ 
+  
